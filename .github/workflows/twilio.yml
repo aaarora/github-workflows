@@ -30,7 +30,7 @@ jobs:
         with:
           fromPhoneNumber: '+18585332016'
           toPhoneNumber: '+19803358813'
-          message: 'Hello from Github Actions'
+          message: 'A new commit was just made to the Github repo'
         env:
           TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
           TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
